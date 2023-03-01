@@ -147,7 +147,7 @@ section.menu{
     background-color: #894105;
 }
 .cards {
-    min-height: 475px;
+    min-height: 400px;
     padding-top: 100px;
 }
 .card_descriptions{
@@ -197,5 +197,54 @@ section.menu{
 }
 span{
     color: #BC9060;
+}
+.container {
+    width: 1140px;
+}
+.history {
+    min-height: 700px;
+}
+.histories{
+    position: relative;
+}
+.historyofres {
+    width: 422px;
+    position: absolute;
+    left: 166px;
+}
+.history_img {
+    position: absolute;
+    right: 166px;
+}
+.history_descr {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+    margin-top: 21px;
+}
+.history_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.numbers {
+    display: flex;
+    justify-content: space-around;
+}
+.history_numbers{
+    text-align: center;
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
 }
 
