@@ -295,3 +295,29 @@ button.table_order {
 button:hover {
     background-color: #562904;
 }
+.foods {
+    min-height: 963px;
+    padding: 132px 0 150px 0;
+}
+.ourfoods {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-bottom: 139px;
+}
+.gamburger {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 139px;
+}
+.gamburger_mini {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
