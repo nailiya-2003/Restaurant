@@ -10,10 +10,8 @@ section.menu{
     padding-top: 32px;
 }
 .container {
-    width: 1140px;  
-}
-.header_logo {
-    padding-left: 140px;
+    width: 1140px; 
+    margin: 0 auto; 
 }
 .header_line {
     display: flex;
@@ -89,7 +87,6 @@ section.menu{
 }
 .welcome {
     position: absolute;
-    left: 200px;
     margin-top: 200px;
     font-style: normal;
     font-family: 'Tinos', serif;
@@ -201,6 +198,7 @@ span{
 }
 .container {
     width: 1140px;
+    margin: 0 auto;
 }
 .history {
     min-height: 700px;
@@ -253,11 +251,12 @@ span{
     background: url("images/Rectangle\ 38.png")center center/cover no-repeat;
 }
 .container{
-    width: 1140px
+    width: 1000px;
+    margin: 0 auto;
 }
 .b_items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around                   ;
     align-items: center;
 }
 .title_text {
@@ -270,6 +269,7 @@ span{
     text-align: center;
     width: 601px;
     min-height: 120px;
+    margin-top: 80px;
 }
 .text {
     font-style: normal;
@@ -278,9 +278,20 @@ span{
     line-height: 33px;
     color: #FFFFFF;
     font-family: 'Tinos', serif;
+    margin-top: 20px;
 }
-button {
+button.table_order {
     width: 157px;
     height: 47px;
     background: #FF7400;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    transition: 0.5s linear;
+}
+button:hover {
+    background-color: #562904;
 }
