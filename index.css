@@ -10,16 +10,17 @@ section.menu{
     padding-top: 32px;
 }
 .container {
-    width: 1440px;
+    width: 1140px;  
 }
 .header_logo {
     padding-left: 140px;
 }
 .header_line {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
 }
+
 .menu_items {
     text-decoration: none;
     font-style: normal;
@@ -247,4 +248,39 @@ span{
     line-height: 27px;
     color: #000000;
 }
-
+.business_lunch {
+    min-height: 357px;
+    background: url("images/Rectangle\ 38.png")center center/cover no-repeat;
+}
+.container{
+    width: 1140px
+}
+.b_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    width: 601px;
+    min-height: 120px;
+}
+.text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    font-family: 'Tinos', serif;
+}
+button {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+}
