@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     box-sizing: border-box;
@@ -298,6 +301,7 @@ button:hover {
 .foods {
     min-height: 963px;
     padding: 132px 0 150px 0;
+    background-color: gainsboro;
 }
 .ourfoods {
     font-style: normal;
@@ -307,7 +311,7 @@ button:hover {
     color: #000000;
     font-family: 'Tinos', serif;
     text-align: center;
-    margin-bottom: 139px;
+    margin-bottom: 135px;
 }
 .gamburger {
     display: flex;
@@ -329,10 +333,10 @@ button:hover {
 }
 .gamburger_img2 {
     display: block;
-    margin: 25px 0;
+    margin: 29px 0;
 }
 .hamburger_images {
-    margin-left: 25px;
+    margin-left: 29px;
 }
 .gamburger_price {
     width: 385px;
@@ -344,17 +348,17 @@ button:hover {
     align-items: center;  
 }
 .gamburgers_mini {
-    box-sizing: border-box;
-    padding: 70px 0;
+    box-sizing: border-box !important; 
     min-height: 140px;
     width: 385px;
+    padding: 60px 0;
 }
 .gamburgers_mini1 {
-    box-sizing: border-box;
-    padding: 70px 0;
+    box-sizing: border-box !important; 
     min-height: 140px;
     width: 385px;
     margin-top: 25px;
+    padding: 60px 0;
 }
 
 
