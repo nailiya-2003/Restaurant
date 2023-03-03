@@ -322,21 +322,39 @@ button:hover {
     width: 585px;
 } 
 .pizza_img {
-    min-height: 450px;
+    min-height: 400px;
 }
 .gamburger_img {
     display: block;
 }
+.gamburger_img2 {
+    display: block;
+    margin: 25px 0;
+}
 .hamburger_images {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 .gamburger_price {
     width: 385px;
+    min-height: 470px;
 }
 .gamburger_mini {
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+.gamburgers_mini {
+    box-sizing: border-box;
+    padding: 70px 0;
+    min-height: 140px;
+    width: 385px;
+}
+.gamburgers_mini1 {
+    box-sizing: border-box;
+    padding: 70px 0;
+    min-height: 140px;
+    width: 385px;
+    margin-top: 25px;
 }
 
 
