@@ -256,7 +256,7 @@ span{
 }
 .b_items {
     display: flex;
-    justify-content: space-around                   ;
+    justify-content: space-around;                ;
     align-items: center;
 }
 .title_text {
@@ -313,11 +313,31 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 139px;
+    width: 1140px;
+    min-height: 450px;
+}
+.gamburger_blocks {
+    display: flex;
+    justify-content: space-around;
+    width: 585px;
+} 
+.pizza_img {
+    min-height: 450px;
+}
+.gamburger_img {
+    display: block;
+}
+.hamburger_images {
+    margin-left: 30px;
+}
+.gamburger_price {
+    width: 385px;
 }
 .gamburger_mini {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
+
+
 
