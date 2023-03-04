@@ -478,7 +478,64 @@ button:hover {
     transition: 0.5s;
     margin-top: 20px;
 }
-
+.customers {
+    min-height: 550px;
+    background-color: #E6E5E5;
+    padding: 104px 0 107px 0;
+}
+.revord {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.customer_girl {
+    display: block;
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 76px;
+}
+.customer {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 17px;
+}
+.customer_name {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin: 10px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.carousel_items{ 
+    width: 5px;
+    height: 5px;
+    background: #C4C4C4;
+    border-radius: 100%;
+    margin-right: 3px;
+}
+.carousel_items2 {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #FF7400;
+    border-radius: 100%;
+}
 
 
 
