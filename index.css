@@ -401,7 +401,14 @@ button:hover {
     color: #000000;
 } 
 .img_gamburger_maxsi {
-    
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
 }
+.img_recom {
+    margin-top: -35px !important;
+}
+
 
 
