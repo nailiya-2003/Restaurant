@@ -385,6 +385,7 @@ button:hover {
     width: 320px;
     min-height:460px;
     background: #FFFFFF;
+    position: relative;
 }
 .recomended {
     width: 124px;
@@ -408,6 +409,20 @@ button:hover {
 }
 .img_recom {
     margin-top: -35px !important;
+}
+.round_bg  {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100px;
+    background-color: #D67E34;
+    opacity: calc(0.5s);
+    position: absolute;
+    padding: 30px;
+    box-sizing: border-box;
+    left: 192px;
+    right: 58px;
+    border: 7px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 
