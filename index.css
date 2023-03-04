@@ -363,14 +363,14 @@ button:hover {
 .ourmenu {
     min-height: 1000px;
     background: url("images/bar-1869656_1920\ 2.png") center center/cover no-repeat;
-    padding: 95px 0 225px 0;
+    padding: 80px 0 200px 0;
 }
 .ourmenu_title {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 54px;
     line-height: 62px;
-    color: #FFFFFF;
+    color: white;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Tinos', serif;
     text-align: center;
@@ -379,13 +379,17 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .gamburger_items {
     width: 320px;
     min-height:460px;
     background: #FFFFFF;
     position: relative;
+    padding-bottom: 30px;
+}
+.second {
+    padding-top: 5px !important;
 }
 .recomended {
     width: 124px;
@@ -415,7 +419,6 @@ button:hover {
     min-height: 100px;
     border-radius: 100px;
     background-color: #D67E34;
-    opacity: calc(0.5s);
     position: absolute;
     padding: 30px;
     box-sizing: border-box;
@@ -424,6 +427,58 @@ button:hover {
     border: 7px solid #FFFFFF;
     color: #FFFFFF;
 }
+.round_bgrec {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 100px;
+    background-color: #D67E34;
+    position: absolute;
+    padding: 30px;
+    box-sizing: border-box;
+    left: 192px;
+    top: 205px;
+    right: 58px;
+    border: 7px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.gamburger_maksi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-top: 22px;
+}
+.gamburger_descr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 17px;
+}
+.gumburger_order {
+    display: block;
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
 
 
 
