@@ -300,7 +300,7 @@ button:hover {
 }
 .foods {
     min-height: 963px;
-    padding: 132px 0 150px 0;
+    padding: 110px 0 110px 0;
     background-color: gainsboro;
 }
 .ourfoods {
@@ -311,7 +311,7 @@ button:hover {
     color: #000000;
     font-family: 'Tinos', serif;
     text-align: center;
-    margin-bottom: 135px;
+    margin-bottom: 120px;
 }
 .gamburger {
     display: flex;
@@ -360,6 +360,48 @@ button:hover {
     margin-top: 25px;
     padding: 60px 0;
 }
-
+.ourmenu {
+    min-height: 1000px;
+    background: url("images/bar-1869656_1920\ 2.png") center center/cover no-repeat;
+    padding: 95px 0 225px 0;
+}
+.ourmenu_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.gamburger_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.gamburger_items {
+    width: 320px;
+    min-height:460px;
+    background: #FFFFFF;
+}
+.recomended {
+    width: 124px;
+    min-height: 36px;
+    background: #D67E34;
+    box-sizing: border-box;
+    padding: 11px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+} 
+.img_gamburger_maxsi {
+    
+}
 
 
