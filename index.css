@@ -150,6 +150,7 @@ section.menu{
 .cards {
     min-height: 400px;
     padding-top: 100px;
+    background-color: #f5f2f2;
 }
 .card_descriptions{
     display: flex;
@@ -205,6 +206,8 @@ span{
 }
 .history {
     min-height: 700px;
+    background-color: #f5f2f2;
+    padding: 50px;
 }
 .histories{
     position: relative;
@@ -259,7 +262,7 @@ span{
 }
 .b_items {
     display: flex;
-    justify-content: space-around;                ;
+    justify-content: space-around;                
     align-items: center;
 }
 .title_text {
@@ -299,9 +302,9 @@ button:hover {
     background-color: #562904;
 }
 .foods {
-    min-height: 963px;
-    padding: 110px 0 110px 0;
-    background-color: gainsboro;
+    min-height: 800px;
+    padding: 90px 0 50px 0;
+    background-color: rgb(233, 229, 229);
 }
 .ourfoods {
     font-style: normal;
@@ -311,7 +314,7 @@ button:hover {
     color: #000000;
     font-family: 'Tinos', serif;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 .gamburger {
     display: flex;
@@ -480,7 +483,7 @@ button:hover {
 }
 .customers {
     min-height: 550px;
-    background-color: #E6E5E5;
+    background-color: #dfd9d9;
     padding: 104px 0 107px 0;
 }
 .revord {
@@ -538,6 +541,7 @@ button:hover {
 .galery_foods {
     min-height: 801px;
     padding: 101px 0 100px 0;
+    background-color: #dddfdb;
 }
 .galery_title {
     font-style: normal;
@@ -587,6 +591,34 @@ button:hover {
 .glasses1{
     margin-top: 30px;
 }
-
+.shefpovars {
+    min-height: 745px;
+    padding: 50px 0 100px 0;
+    border-top: #ea6767 solid;
+    background-color: #f5f2f2;
+}
+.ourpovars {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Tinos', sans-serif;
+}
+.photosofpovars {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 107px;
+}
+.pizzacooker {
+    display: block;
+    margin-right: 15px;
+}
+.view {
+    background:url("images/MAKE\ A\ RESERVATION.png") center center/ cover no-repeat;
+    min-height: 732px;
+}
 
 
