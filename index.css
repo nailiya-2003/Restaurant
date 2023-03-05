@@ -527,14 +527,65 @@ button:hover {
     width: 5px;
     height: 5px;
     background: #C4C4C4;
-    border-radius: 100%;
-    margin-right: 3px;
+    border-radius: 100%; 
 }
 .carousel_items2 {
     width: 7px;
     height: 7px;
     border: 1px solid #FF7400;
     border-radius: 100%;
+}
+.galery_foods {
+    min-height: 801px;
+    padding: 101px 0 100px 0;
+}
+.galery_title {
+    font-style: normal;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    color: #000000;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+.galery_foods::after {  
+    position: absolute;
+    content: '';
+    width: 35px;
+    right: 0px;
+    top: 5000px;
+    height: 100px;
+    background-color: #FF0000;
+}
+.galery_foods::before {  
+    position: absolute;
+    content: '';
+    width: 35px;
+    left: 0px;
+    top: 5000px;
+    height: 100px;
+    background-color: #FF0000; 
+}
+.three_images {
+    width: 1110px;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.three_foods1 {
+    margin-right: 30px;
+}
+.coffee {
+    margin-right: 26px;
+    transition: 0.5s linear;
+}
+.glasses {
+    margin-bottom: 30px;
+}
+.glasses1{
+    margin-top: 30px;
 }
 
 
